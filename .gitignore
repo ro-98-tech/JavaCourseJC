@@ -1,20 +1,29 @@
+### OS files ###
+.DS_Store
+Thumbs.db
+
+### Java ###
+*.class
+*.log
+
+### Build outputs ###
+/out/
+/bin/
+/target/
+/build/
+/.gradle/
+
 ### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.kotlin
+/.idea/
+/*.iml
 
 ### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+/.project
+/.classpath
+/.settings/
+
+### VS Code ###
+/.vscode/
 
 ### NetBeans ###
 /nbproject/private/
@@ -23,35 +32,5 @@ bin/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
-.vscode/
-
-### Mac OS ###
-.DS_Store
-
-# IntelliJ IDEA
-.idea/
-*.iml
-out/
-
-# Eclipse
-.project
-.classpath
-.settings/
-bin/
-
-# VS Code
-.vscode/
-
-# Build tools
-target/
-build/
-.gradle/
-
-# Java
-*.class
-*.log
-
-# macOS / Windows
-.DS_Store
-Thumbs.db
+# (Opcional) Kotlin cache (si usas Kotlin)
+/.kotlinc/

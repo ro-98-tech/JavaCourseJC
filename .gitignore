@@ -28,3 +28,30 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# Build tools
+target/
+build/
+.gradle/
+
+# Java
+*.class
+*.log
+
+# macOS / Windows
+.DS_Store
+Thumbs.db

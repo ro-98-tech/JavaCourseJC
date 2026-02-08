@@ -16,11 +16,11 @@ public class JC14IfAndCondition {
 
         // IF block: checks age ranges in order -> adult (>=18), teenager (13–17), child (1–12), else invalid
         if (age >= 18) {
-            JOptionPane.showMessageDialog(null, "You are an adult");
+            JOptionPane.showMessageDialog(null, name + ", you are an adult");
         } else if (age >= 13 && age <= 17) {
-            JOptionPane.showMessageDialog(null, "You are a teenager");
+            JOptionPane.showMessageDialog(null, name + ", you are a teenager");
         } else if (age >= 1 && age <= 12) {
-            JOptionPane.showMessageDialog(null, "You are a child");
+            JOptionPane.showMessageDialog(null, name + ", you are a child");
         } else {
             JOptionPane.showMessageDialog(null, "Invalid age");
         }

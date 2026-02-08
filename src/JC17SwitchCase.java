@@ -35,5 +35,7 @@ public class JC17SwitchCase {
             default:
                 System.out.println("Invalid day number.");
         }
+        // Closing the scanner to prevent resource leaks
+        input.close();
     }
 }

@@ -18,7 +18,7 @@ public class JC05Comments {
 
         // Disabled print statement (example of commenting out code)
         // System.out.println("Channel name: " + channel);
-
+        System.out.println("Channel name: " + channel);
         // Active print statement
         System.out.println("Course name: " + course);
 
@@ -26,5 +26,7 @@ public class JC05Comments {
          * Another disabled print using multi-line comment
          * System.out.println("Purpose: " + purpose);
          */
+
+        System.out.println("Purpose: " + purpose);
     }
 }

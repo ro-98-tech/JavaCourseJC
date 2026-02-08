@@ -24,5 +24,8 @@ public class JC06DataInput {
         // Data output
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
+
+        // Closing the scanner to prevent resource leaks
+        input.close();
     }
 }

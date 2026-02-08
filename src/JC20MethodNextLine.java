@@ -12,5 +12,8 @@ public class JC20MethodNextLine {
 
         System.out.println("Text 1: " + text1);
         System.out.println("Text 2: " + text2);
+
+        // Closing the scanner to prevent resource leaks
+        input.close();
     }
 }

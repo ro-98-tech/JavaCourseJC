@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
  * Classifies a person by age using simple if/else conditions.
  * Categories: Adult (>= 18), Teenager (13–17), Child (1–12), Invalid otherwise.
  */
-public class JC14IfConditional {
+public class JC14IfAndCondition {
 
     public static void main(String[] args) {
         // Program entry point.

@@ -1,4 +1,5 @@
-import java.util.Scanner;
+import java.util.Scanner;// Import the Scanner class from the java.util package to read input from the user.
+
 /**
  * Reads basic user input from the console using Scanner.
  * Demonstrates reading a String and an int, then printing them.
@@ -12,7 +13,7 @@ public class JC06DataInput {
         String name;
         int age;
 
-        // Data input (from standard input)
+        // Create a Scanner object to read input from the user.
         Scanner input = new Scanner(System.in);
 
         System.out.println("Type your full name...");

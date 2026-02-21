@@ -19,8 +19,8 @@ public class JC04VariableVar {
         System.out.println("Number (int): " + number);
         System.out.println("Amount (double): " + amount);
 
-        // var x;            // ❌ Error: no initializer
-        // var y = null;     // ❌ Error: cannot infer type from null
+        // We can use 'var' to declare variables without explicitly specifying their type. The compiler infers the type based on the assigned value.
+        // However, 'var' cannot be used for class fields, method parameters, or return types. It is only allowed for local variables within methods.
 
         // --- Inference details (important) ---
         var big = 10L;       // long (because of the L suffix)

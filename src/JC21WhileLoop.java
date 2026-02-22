@@ -3,9 +3,10 @@ import java.util.Scanner;
 public class JC21WhileLoop {
 
     public static void main(String[] args) {
-        int i = 0;
 
-        // While loop
+        // Example 1: Basic while loop counting from 0 to 5
+        int i = 0;
+        System.out.println("Counting from 0 to 5:");
         while(i<=5){
             System.out.println("The value of i is: " + i);
             if (i == 3) {
@@ -16,12 +17,14 @@ public class JC21WhileLoop {
         System.out.println("------------------------------");
         // Example 2: Multiples of X number
 
-        int x;
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a number to find its multiples: ");
-        x= input.nextInt();
+        int x = input.nextInt();
+        
+        input.nextLine();
 
         System.out.println("The multiples of " + x + " are: ");
+
         
         int y = 1;
         while (y<=10) {
@@ -29,6 +32,8 @@ public class JC21WhileLoop {
             y++;
         }
 
+        System.out.println("------------------------------");
+        
         // Example 3: Login user control
 
         final String userName = "admin";
@@ -37,7 +42,7 @@ public class JC21WhileLoop {
 
         while (!isAuthenticated) {
             System.out.println("Enter username: ");
-            String user = input.next();
+            String user = input.nextLine();
             System.out.println("Enter password: ");
             String passwordTry = input.nextLine();
 
@@ -48,9 +53,7 @@ public class JC21WhileLoop {
                 System.out.println("Invalid username or password."+"\n"+" Please try again.");
             }
         }
-
-
-
+        // Close the scanner to prevent resource leaks4
         input.close();
     }
 }
